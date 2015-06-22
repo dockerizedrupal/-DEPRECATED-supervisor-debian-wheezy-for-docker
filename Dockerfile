@@ -1,4 +1,4 @@
-FROM viljaste/puppet:latest
+FROM viljaste/puppet:debian-wheezy
 
 MAINTAINER Jürgen Viljaste <j.viljaste@gmail.com>
 
