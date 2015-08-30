@@ -5,7 +5,8 @@
     TMP="$(mktemp -d)" \
       && git clone https://github.com/dockerizedrupal/docker-supervisor.git "${TMP}" \
       && cd "${TMP}" \
-      && sudo docker build -t dockerizedrupal/supervisor:latest . \
+      && git checkout debian-wheezy \
+      && sudo docker build -t dockerizedrupal/supervisor:debian-wheezy . \
       && cd -
 
 ## License

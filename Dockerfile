@@ -1,4 +1,4 @@
-FROM dockerizedrupal/puppet:latest
+FROM dockerizedrupal/puppet:debian-wheezy
 
 MAINTAINER Jürgen Viljaste <j.viljaste@gmail.com>
 
