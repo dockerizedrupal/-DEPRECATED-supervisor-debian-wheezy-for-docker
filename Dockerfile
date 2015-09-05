@@ -1,4 +1,4 @@
-FROM dockerizedrupal/puppet-debian-wheezy:1.0.3
+FROM dockerizedrupal/puppet-debian-wheezy:1.0.4
 
 MAINTAINER Jürgen Viljaste <j.viljaste@gmail.com>
 
