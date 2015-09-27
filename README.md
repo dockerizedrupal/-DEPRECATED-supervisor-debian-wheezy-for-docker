@@ -1,6 +1,8 @@
 # docker-supervisor-debian-wheezy
 
-An intermediate base Docker image for [dockerizedrupal/base-debian-wheezy](https://github.com/dockerizedrupal/docker-base-debian-wheezy) that is used in the [Dockerized Drupal](https://dockerizedrupal.com/) project.
+An intermediate base Docker image for [dockerizedrupal/base-debian-wheezy](https://github.com/dockerizedrupal/docker-base-debian-wheezy).
+
+This project is part of the [Dockerized Drupal](https://dockerizedrupal.com/) initiative.
 
 ## Run the container
 
