@@ -1,9 +1,9 @@
 {
-  "name": "docker-supervisor-debian-wheezy",
+  "name": "-DEPRECATED-supervisor-debian-wheezy-for-docker",
   "version": "1.1.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dockerizedrupal/docker-supervisor-debian-wheezy.git"
+    "url": "https://github.com/dockerizedrupal/-DEPRECATED-supervisor-debian-wheezy-for-docker.git"
   },
   "license": "MIT",
   "dependencies": {

@@ -1,8 +1,10 @@
-> **Notice:** *This project is part of the [Dockerized Drupal](https://dockerizedrupal.com/) initiative.*
+# WARNING
 
-# docker-supervisor-debian-wheezy
+> **Notice:** *This project is deprecated. Read more about the reason why [here](https://github.com/dockerizedrupal/base-debian-wheezy-for-docker/issues/3).*
 
-A base Docker image for [dockerizedrupal/base-debian-wheezy](https://github.com/dockerizedrupal/docker-base-debian-wheezy).
+# -DEPRECATED-supervisor-debian-wheezy-for-docker
+
+A base Docker image for [dockerizedrupal/base-debian-wheezy](https://github.com/dockerizedrupal/base-debian-wheezy-for-docker).
 
 ## Run the container
 
@@ -14,7 +16,7 @@ A base Docker image for [dockerizedrupal/base-debian-wheezy](https://github.com/
 ## Build the image
 
     TMP="$(mktemp -d)" \
-      && git clone https://github.com/dockerizedrupal/docker-supervisor-debian-wheezy.git "${TMP}" \
+      && git clone https://github.com/dockerizedrupal/-DEPRECATED-supervisor-debian-wheezy-for-docker.git "${TMP}" \
       && cd "${TMP}" \
       && git checkout 1.1.2 \
       && sudo docker build -t dockerizedrupal/supervisor-debian-wheezy:1.1.2 . \
